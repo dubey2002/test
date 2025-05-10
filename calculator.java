@@ -9,8 +9,8 @@ public class calculator {
         System.out.println("Simple Calculator");
         System.out.println("Choose an operation: ");
         System.out.println("1. Addition operation");
-        System.out.println("2. Subtract");
-        System.out.println("3. Multiply");
+        System.out.println("2. Subtract Operation");
+        System.out.println("3. Multiply operation");
         System.out.println("4. Divide");
 
         int choice = sc.nextInt();
