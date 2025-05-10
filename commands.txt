@@ -1,0 +1,28 @@
+Docker install:
+
+->sudo snap install docker
+->docker build -f MyDockerfile -t java-calculator .
+
+If docker not works:
+
+->sudo groupadd docker (create group)
+->sudo usermod -aG docker $USER(create user)
+->docker run hello-world(to test docker running successfully)
+
+
+To get images:
+
+->docker images
+
+Delete images:
+-->docker rmi imageid
+-->docker rmi -f IMAGE_ID(forcefully)
+
+To run container:
+
+--> docker run -it image_name
+
+Get containers:
+
+->docker ps
+->docker ps -a(get all containers)
